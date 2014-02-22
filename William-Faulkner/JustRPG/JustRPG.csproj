@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Engine\Engine.cs" />
+    <Compile Include="Engine\Renderer.cs" />
+    <Compile Include="Interfaces\IRenderer.cs" />
     <Compile Include="Interfaces\ISkill.cs" />
     <Compile Include="Interfaces\IHero.cs" />
     <Compile Include="Program.cs" />
@@ -58,7 +60,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Art\" />
     <Folder Include="Battle\" />
+    <Folder Include="NewFolder1\" />
     <Folder Include="PowerUps\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
