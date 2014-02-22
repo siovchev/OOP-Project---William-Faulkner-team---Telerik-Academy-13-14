@@ -26,6 +26,10 @@
         {
             var engine = Engine.CurrentInstance;
             
+            //testing the hero creation
+            //engine.CreateHero("assassin", "radoi");
+            //Console.WriteLine(engine.GetHero.GetType()  ); 
+            
             DrawTestIntro();
         }
     }

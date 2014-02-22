@@ -4,8 +4,13 @@
 
     class HeroRanger : Hero
     {
-        public HeroRanger(string name, int hitP, int attP, int defP, int speed)
-            : base(name, hitP, attP, defP, speed)
+        private const int initialHitPoints = 350;
+        private const int initialAttackPoints = 25;
+        private const int initialDefencePoints = 10;
+        private const int initialSpeed = 2;
+
+        public HeroRanger(string name) 
+            : base(name, initialHitPoints, initialAttackPoints, initialDefencePoints, initialSpeed)
         {
         }
     }

@@ -54,7 +54,6 @@
     <Compile Include="Units\Hero.cs" />
     <Compile Include="Units\HeroAssassin.cs" />
     <Compile Include="Units\HeroBarbarian.cs" />
-    <Compile Include="Units\HeroDuid.cs" />
     <Compile Include="Units\HeroRanger.cs" />
     <Compile Include="Units\Unit.cs" />
   </ItemGroup>

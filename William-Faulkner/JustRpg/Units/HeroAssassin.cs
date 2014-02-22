@@ -4,8 +4,13 @@
 
     class HeroAssassin : Hero
     {
-        public HeroAssassin(string name, int hitP, int attP, int defP, int speed)
-            : base(name, hitP, attP, defP, speed)
+        private const int initialHitPoints = 450;
+        private const int initialAttackPoints = 15;
+        private const int initialDefencePoints = 15;
+        private const int initialSpeed = 3;
+
+        public HeroAssassin(string name) 
+            : base(name, initialHitPoints, initialAttackPoints, initialDefencePoints, initialSpeed)
         {
         }
     }
