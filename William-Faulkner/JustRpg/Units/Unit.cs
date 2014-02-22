@@ -25,7 +25,7 @@
         {
             get
             {
-                return new MatrixCoords(topLeft.Row, topLeft.Col);
+                return new MatrixCoords(this.topLeft.Row, this.topLeft.Col);
             }
 
             protected set

@@ -1,7 +1,7 @@
 ﻿namespace JustRpg.EngineAndRenderer
 {
     using System;
-    class MatrixCoords
+    public class MatrixCoords
     {
         public int Row { get; set; }
         public int Col { get; set; }
